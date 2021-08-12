@@ -1,14 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Countdown</title>
-</head>
-<body>
-    <div id="clock"></div>
 
-    <script src="./main.js"></script>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/main.css">
+
+  <title>countdown Go-open</title>
+</head>
+
+<body>
+
+  <main>
+    <h1>ACTUALIZAR TU USUARIO/CONTRASEÑA</h1>
+    <div class="countdown">
+
+      <div class="countdown-block">
+        <span class="days time-elem">
+          <span class="top">00</span>
+          <span class="top-back">
+            <span>00</span>
+          </span>
+          <span class="bottom">00</span>
+          <span class="bottom-back">
+            <span>00</span>
+          </span>
+        </span>
+        <span class="title">Dias</span>
+      </div>
+
+
+      <div class="countdown-block">
+        <span class="hours time-elem">
+          <span class="top">00</span>
+          <span class="top-back">
+            <span>00</span>
+          </span>
+          <span class="bottom">00</span>
+          <span class="bottom-back">
+            <span>00</span>
+          </span>
+        </span>
+        <span class="title">Horas</span>
+      </div>
+
+
+      <div class="countdown-block">
+        <span class="minutes time-elem">
+          <span class="top">00</span>
+          <span class="top-back">
+            <span>00</span>
+          </span>
+          <span class="bottom">00</span>
+          <span class="bottom-back">
+            <span>00</span>
+          </span>
+        </span>
+        <span class="title">Minutos</span>
+      </div>
+
+      <div class="countdown-block">
+        <span class="seconds time-elem">
+          <span class="top">00</span>
+          <span class="top-back">
+            <span>00</span>
+          </span>
+          <span class="bottom">00</span>
+          <span class="bottom-back">
+            <span>00</span>
+          </span>
+        </span>
+        <span class="title">Segundos</span>
+      </div>
+
+    </div>
+
+  </main>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+  <script src="./script.js"></script>
 </body>
+
 </html>
