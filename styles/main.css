@@ -1,25 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;900&display=swap')
+/* estilos countdown */
 
-@font-face {
-  font-family: Poppins-Regular;
-  src: url(../Fonts/Poppins-Regular.ttf);
-}
-
-@font-face {
-  font-family: Poppins-Bold;
-  src: url(../Fonts/Poppins-Bold_0.otf);
-}
-
-@font-face {
-  font-family: Poppins-SemiBold;
-  src: url(../Fonts/Poppins-SemiBold.ttf);
-}
-
-@font-face {
-  font-family: Poppins-Medium;
-  src: url(../Fonts/Poppins-Medium.ttf);
-}
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;900&display=swap');
 
 * {
   -webkit-box-sizing: border-box;
@@ -300,4 +281,3 @@ h1 {
     width: 90%;
   }
 }
-/*# sourceMappingURL=main.css.map */
