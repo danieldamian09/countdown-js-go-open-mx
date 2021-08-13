@@ -87,7 +87,11 @@ h1 {
   font-weight: bold;
 }
 
-.principal-countdown button{
+.principal-countdown a{
+  text-decoration: none;
+}
+
+.principal-countdown a > button{
   width: 250px;
   padding: 15px 25px;
   border-radius: 10px;
@@ -98,6 +102,7 @@ h1 {
   background: linear-gradient(90deg, #E37900 0%, #E78006 9%, #F4981A 43%, #FCA726 74%, #FFAC2A 100%);
   box-shadow: none;
   border: none;
+  cursor: pointer;
 }
 
 .title {
