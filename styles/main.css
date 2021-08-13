@@ -61,10 +61,6 @@ h1 {
   text-transform: uppercase;
 }
 
-p{
-  font-size: 20px;
-  color: #fff;
-}
 
 .countdown {
   display: -webkit-box;
@@ -79,7 +75,16 @@ p{
 .principal-countdown{
   margin: 2rem auto;
   text-align: center;
+}
 
+.principal-countdown p {
+  font-size: 24px;
+  color: #fff;
+  word-spacing: 3px;
+}
+
+.principal-countdown span{
+  font-weight: bold;
 }
 
 .principal-countdown button{
@@ -246,6 +251,7 @@ p{
   font-size: 12px;
   line-height: 14px;
   text-align: center;
+  color: #fff;
 }
 
 @media only screen and (max-width: 512px) {
