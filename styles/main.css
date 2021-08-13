@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;900&display=swap')
+
 @font-face {
   font-family: Poppins-Regular;
   src: url(../Fonts/Poppins-Regular.ttf);
@@ -25,14 +27,15 @@
 }
 
 body {
-  font-family: Poppins-Regular, sans-serif;
+  font-family: 'Montserrat', sans-serif;
   height: 100vh;
   margin: 0;
 }
 
 main {
   height: 100vh;
-  background-size: contain;
+  background-image: url('../img/fondo.png');
+  background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -51,12 +54,16 @@ main {
 }
 
 h1 {
-  font-size: 1.5em;
-  margin: 19px 0 109px;
-  letter-spacing: 8px;
-  color: #724CF2;
-  font-family: Poppins-Bold, sans-serif !important;
+  font-size: 39px;
+  line-height: 42px;
+  color: #fff;
+  font-weight: 900;
   text-transform: uppercase;
+}
+
+p{
+  font-size: 20px;
+  color: #fff;
 }
 
 .countdown {
@@ -69,8 +76,28 @@ h1 {
           flex-flow: row nowrap;
 }
 
+.principal-countdown{
+  margin: 2rem auto;
+  text-align: center;
+
+}
+
+.principal-countdown button{
+  width: 250px;
+  padding: 15px 25px;
+  border-radius: 10px;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: bold;
+  color: #fff;
+  background: linear-gradient(90deg, #E37900 0%, #E78006 9%, #F4981A 43%, #FCA726 74%, #FFAC2A 100%);
+  box-shadow: none;
+  border: none;
+}
+
 .title {
-  color: #724CF2;
+  color: #fff;
+  font-weight: bold;
   font-size: 1em;
   text-transform: uppercase;
   letter-spacing: 6px;
@@ -100,17 +127,15 @@ h1 {
   position: relative;
   height: 140px;
   width: 150px;
-  background: #724CF2;
-  background: -webkit-linear-gradient(to right, #dc2430, #7b4397);
-  background: linear-gradient(to right, #dc2430, #7b4397);
+  background: linear-gradient(90deg, #E37900 0%, #E78006 9%, #F4981A 43%, #FCA726 74%, #FFAC2A 100%);
   border-radius: 8px;
   text-align: center;
   font-size: 5.5em;
   overflow: hidden;
   margin-bottom: 27px;
   line-height: 138px;
-  -webkit-box-shadow: 0px 8px 0px 0px #16151d;
-          box-shadow: 0px 8px 0px 0px #16151d;
+  -webkit-box-shadow: 0px 8px 0px 0px #ad9d0eab;
+          box-shadow: 0px 8px 0px 0px #ad9d0eab;
 }
 
 .time-elem::before, .time-elem::after {
@@ -118,7 +143,7 @@ h1 {
   position: absolute;
   z-index: 6;
   top: calc(50% - 5px);
-  background: #24242e;
+  background: radial-gradient(2267% 2267% at 22705% 12782%, #FF9F2C 0%, #FA9624 10%, #ED8110 41%, #E67404 72%, #E37000 100%);
   border-radius: 50%;
   width: 10px;
   height: 10px;
@@ -140,9 +165,7 @@ h1 {
 
 .top {
   z-index: 3;
-  background: #724CF2;
-  background: -webkit-linear-gradient(to right, #dc2430, #7b4397);
-  background: linear-gradient(to right, #dc2430, #7b4397);
+  background: linear-gradient(90deg, #E37900 0%, #E78006 9%, #F4981A 43%, #FCA726 74%, #FFAC2A 100%);
   -webkit-transform-origin: 50% 100%;
           transform-origin: 50% 100%;
   -webkit-transform: perspective(200px);
@@ -180,9 +203,7 @@ h1 {
   top: 0;
   height: 50%;
   overflow: hidden;
-  background: #724CF2;
-  background: -webkit-linear-gradient(to right, #dc2430, #7b4397);
-  background: linear-gradient(to right, #dc2430, #7b4397);
+  background: linear-gradient(90deg, #E37900 0%, #E78006 9%, #F4981A 43%, #FCA726 74%, #FFAC2A 100%);
 }
 
 .bottom-back span {
@@ -206,11 +227,7 @@ h1 {
   bottom: 0;
   -webkit-transform-origin: 50% 0;
           transform-origin: 50% 0;
-  background: #724CF2;
-  background: -webkit-linear-gradient(to right, #dc2430, #7b4397);
-  background: linear-gradient(to right, #dc2430, #7b4397);
-  -webkit-transform: perspective(200px) rotateX(180deg);
-          transform: perspective(200px) rotateX(180deg);
+  background: linear-gradient(90deg, #E37900 0%, #E78006 9%, #F4981A 43%, #FCA726 74%, #FFAC2A 100%);
 }
 
 .top-back span {
@@ -221,6 +238,16 @@ h1 {
   margin: auto;
 }
 
+.terminos-countdown{
+  width: 580px;
+}
+
+.terminos-countdown p{
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+}
+
 @media only screen and (max-width: 512px) {
   body {
     font-size: 8px;
@@ -228,9 +255,10 @@ h1 {
   main {
     padding-top: 18vh;
   }
+
   h1 {
     font-size: 2.2em;
-    margin: 24px 0 56px;
+    margin: 2rem auto;
     letter-spacing: 6px;
     padding: 0 20px;
     line-height: 22px;
@@ -255,6 +283,10 @@ h1 {
   }
   .social {
     bottom: 39px;
+  }
+
+  .terminos-countdown {
+    width: 90%;
   }
 }
 /*# sourceMappingURL=main.css.map */
