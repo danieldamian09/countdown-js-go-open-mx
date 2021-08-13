@@ -1,3 +1,5 @@
+// ==============================CountDown============================================ 
+
 window.addEventListener('load', () => {
     const days = document.querySelector('.days')
     const hours = document.querySelector('.hours')
@@ -14,7 +16,7 @@ window.addEventListener('load', () => {
     let totalSeconds;
     
     function init() {
-        totalSeconds = Math.floor((new Date('Tue Aug 31 2021 23:59:59 GMT-0300') - new Date()) / 1000);
+        totalSeconds = Math.floor((new Date('Tue Aug 31 2021 23:59:59 GMT-6') - new Date()) / 1000);
         setTimeLeft();
         let interval = setInterval(() => {
             if (totalSeconds < 0) {
