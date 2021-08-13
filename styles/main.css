@@ -7,7 +7,11 @@
   box-sizing: border-box;
 }
 
+/* realice un cambio en el bacgraound */
+
 body {
+  background-image: url('https://pmi--qa--c.documentforce.com/sfc/dist/version/renditionDownload?rendition=ORIGINAL_Png&versionId=068250000016O3A&operationContext=DELIVERY&contentId=05T2500000BSU4M&page=0&d=/a/25000000EW4T/GsYzB2o9wsmrQt8TdaMiOaj1OduIotLKDzo22Tv9vuA&oid=00D25000000E5ks&dpt=null&viewId=');
+  background-size: cover;
   font-family: 'Montserrat', sans-serif;
   height: 100vh;
   margin: 0;
@@ -15,8 +19,8 @@ body {
 
 main {
   height: 100vh;
-  background-image: url('https://pmi--qa--c.documentforce.com/sfc/dist/version/renditionDownload?rendition=ORIGINAL_Png&versionId=068250000016O3A&operationContext=DELIVERY&contentId=05T2500000BSU4M&page=0&d=/a/25000000EW4T/GsYzB2o9wsmrQt8TdaMiOaj1OduIotLKDzo22Tv9vuA&oid=00D25000000E5ks&dpt=null&viewId=');
-  background-size: cover;
+  /* background-image: url('https://pmi--qa--c.documentforce.com/sfc/dist/version/renditionDownload?rendition=ORIGINAL_Png&versionId=068250000016O3A&operationContext=DELIVERY&contentId=05T2500000BSU4M&page=0&d=/a/25000000EW4T/GsYzB2o9wsmrQt8TdaMiOaj1OduIotLKDzo22Tv9vuA&oid=00D25000000E5ks&dpt=null&viewId=');
+  background-size: cover; */
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
